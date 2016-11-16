@@ -16,19 +16,24 @@ SOURCES += main.cpp \
     LoginFrame.cpp \
     LoginningFrame.cpp \
     ManageFrame.cpp \
-    MainWindow.cpp
+    MainWindow.cpp \
+    RegisterFrame.cpp \
+    BuoyWidget.cpp
 
 HEADERS  += \
     LoginFrame.h \
     LoginningFrame.h \
     ManageFrame.h \
-    MainWindow.h
+    MainWindow.h \
+    RegisterFrame.h \
+    BuoyWidget.h
 
 FORMS    += \
     LoginFrame.ui \
     LoginningFrame.ui \
     ManageFrame.ui \
-    MainWindow.ui
+    MainWindow.ui \
+    RegisterFrame.ui
 
 RC_ICONS = ./res/myappico.ico
 

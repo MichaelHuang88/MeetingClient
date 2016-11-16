@@ -2,7 +2,10 @@
     <qresource prefix="/ico">
         <file>res/myappico.ico</file>
     </qresource>
-    <qresource prefix="/png"/>
+    <qresource prefix="/png">
+        <file>res/close.png</file>
+        <file>res/min.png</file>
+    </qresource>
     <qresource prefix="/bmp">
         <file>res/mainbackground.bmp</file>
     </qresource>
